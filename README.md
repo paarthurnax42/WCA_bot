@@ -28,10 +28,14 @@ Telegram-бот для расчёта дневных норм воды и кал
     pip install -r requirements.txt
 
 4. Создайте файл .env на основе .env.example и заполните своими ключами:
-    BOT_TOKEN — токен от @BotFather
+
+   BOT_TOKEN — токен от @BotFather
+
     OPENWEATHER_API_KEY — ключ от OpenWeatherMap
+
     USDA_API_KEY — ключ от USDA FoodData Central (опционально)
-Запустите бота:
+
+5. Запустите бота:
     ```bash 
     python bot.py
 
